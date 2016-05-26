@@ -6,5 +6,13 @@ public class Patient {
 		// TODO Auto-generated method stub
 		return hasWorkDoneOn;
 	}
+	
+	public void isWorkedOn() {
+		hasWorkDoneOn = true;
+	}
+
+	public void checkPulse() {
+		hasWorkDoneOn = true;		
+	}
 
 }
