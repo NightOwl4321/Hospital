@@ -2,6 +2,7 @@ package project;
 
 public class Patient {
 	boolean hasWorkDoneOn = false;
+	boolean isAlive = true;
 	public boolean feelsCaredFor() {
 		// TODO Auto-generated method stub
 		return hasWorkDoneOn;
@@ -13,6 +14,16 @@ public class Patient {
 
 	public void checkPulse() {
 		hasWorkDoneOn = true;		
+	}
+
+	public boolean isAlive() {
+		// TODO Auto-generated method stub
+		return isAlive;
+	}
+
+	public void kill() {
+		isAlive = false;
+		
 	}
 
 }
